@@ -1,4 +1,4 @@
-{% set version = '0.4.1' %}
+{% set version = "0.4.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tidypopgen_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tidypopgen/tidypopgen_{{ version }}.tar.gz
-  sha256: ec96e4a7449ecd96133108cfa682843d2e2499cc8e3294ce5e0497da5887e2bd
+  sha256: cd1f8388151fb9e66d8c6cf836b62cc112d3d00eab3e63270a69226c9d108f9e
 
 build:
   number: 0
@@ -95,11 +95,8 @@ about:
   home: https://evolecolgroup.github.io/tidypopgen/
   dev_url: https://github.com/EvolEcolGroup/tidypopgen/
   license: GPL-3.0-or-later
-  summary: We provide a tidy grammar of population genetics, facilitating the manipulation and
-    analysis of data on biallelic single nucleotide polymorphisms (SNPs). 'tidypopgen'
-    scales to very large genetic datasets by storing genotypes on disk, and performing
-    operations on them in chunks, without ever loading all data in memory. The full
-    functionalities of the package are described in Carter et al. (2025) <doi:10.1111/2041-210x.70204>.
+  summary: We provide a tidy grammar of population genetics, facilitating the manipulation and analysis of data on biallelic single nucleotide polymorphisms (SNPs). 'tidypopgen' scales to very large genetic datasets by storing genotypes on disk, and performing operations on them in chunks, without ever loading all data in
+    memory. The full functionalities of the package are described in Carter et al. (2025) <doi:10.1111/2041-210x.70204>.
   license_family: GPL3
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
