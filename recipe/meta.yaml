@@ -44,7 +44,6 @@ requirements:
     - r-mass
     - r-rcpp
     - r-rcpparmadillo >=0.9.600
-    - r-upsetr
     - r-bigparallelr
     - r-bigsnpr
     - r-bigstatsr
