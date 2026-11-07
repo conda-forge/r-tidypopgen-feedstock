@@ -1,4 +1,4 @@
-{% set version = "0.4.4" %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tidypopgen_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tidypopgen/tidypopgen_{{ version }}.tar.gz
-  sha256: 2a55ef2135f101d5ab26c0120130de435b02ccda7815f425cc38dba18355bf5f
+  sha256: 95a84e469213463233eb972b6a108379fce18b944b35671a732389225a273543
 
 build:
   number: 0
